@@ -54,7 +54,7 @@ device has been connected or may still be connected.
 
 ### Final notes
 As Android Studio already ships such a feature, this project has become
-obsolete This project does not meet all best practices of development using
+obsolete. This project does not meet all best practices of development using
 Java. However, I coded the project within a few days back in 2017.
 
 © 2017 [mhahnFr](https://www.github.com/mhahnFr)
