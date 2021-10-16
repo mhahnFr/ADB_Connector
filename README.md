@@ -40,7 +40,7 @@ strategy to do what it is supposed to, is to first get the path to the ``adb``,
 as it is by default not on the shell path. After setting up the GUI, a timer is
 started, which will call the ``actionPerformed(ActionEvent)`` method of the
 main class. During execution, the timer will have different action commands. At
-the beginning, the action command is set to look for attached devices. Ones the
+the beginning, the action command is set to look for attached devices. Once the
 specified device is found in the list returned by the ADB, the specified port
 will be opened. After that, a new timer is started with a action command
 indicating to watch the list of attached devices until the specified device
