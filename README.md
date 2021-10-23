@@ -1,9 +1,9 @@
 # Welcome to the ADB Connector!
 This repository contains a project that I made in the year 2017. It was made as
 an addition to Android Studio, which had no possibility to connect to an
-Android device using the network. The Android Debug Bridge however already had
-that function, although one had to type in several commands on the command
-line, so I created this project to automate this job.
+Android device using the network back then. The Android Debug Bridge however
+already had that function, although one had to type in several commands on the
+command line, so I created this project to automate this job.
 
 ### Android Debug Bridge commands
  - To list all devices that are connected to the ADB: ``adb devices -l``
@@ -21,10 +21,10 @@ device. Finally, it should establish the network connection to that device and
 quit.
 
 Because Smartphones are designed to save battery power, the network connection
-using WLAN is lost after some time without traffic from the ADB, there should
-also be the possibility to reconnect to a device without the need of plugging
-it in again, as the network port on the Android device stayed open until the
-next reboot.
+using WLAN is lost after some time without traffic from the ADB, so there
+should also be the possibility to reconnect to a device without the need of
+plugging it in again, as the network port on the Android device stayed open
+until the next reboot.
 
 ## GUI-Design
 The graphical user interface consists of a single window, which will stay the
@@ -53,8 +53,8 @@ The skip button directly starts the connection process, regardless wether the
 device has been connected or may still be connected.
 
 ### Final notes
-As Android Studio already ships such a feature, this project has become
-obsolete. This project does not meet all best practices of development using
-Java. However, I coded the project within a few days back in 2017.
+As Android Studio already ships such a feature these days, this project has
+become obsolete. This project does not meet all best practices of development
+using Java. However, I coded the project within a few days back in 2017.
 
 © 2017 [mhahnFr](https://www.github.com/mhahnFr)
